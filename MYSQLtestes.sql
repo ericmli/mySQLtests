@@ -133,11 +133,13 @@ drop column profissao;
 alter table pessoas
 rename to colaboradores;
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Ordenar colunas por ... ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+#Ordem da coluna de cima para baixo
+select * from cursos order by nome;
 
-
-
-
+#De baixo para cima
+select * from cursos order by desc nome;
 
 
 
